@@ -12,9 +12,9 @@ addActivities(dataFrameName) - This function can be run after either of the prev
 
 summarizeStdMeanByPersonActivity(dataFrameName) - This can only be run after addActivities. It groups the data by subject and activity and then averages all of the values across these groups. It removes the measurementType and activityID variables.
 
-To obtain the final summarized data run the following:
-soruce('/.../run_analysis.R') (replace the ... with the directory path to the R script)
-dataFrameName<-mergeFitData()
-dataFrameName<-stdMeanDataExtract(dataFrameName)
-dataFrameName<-addActivities(dataFrameName)
-dataFrameName<-summarizeStdMeanByPersonActivity(dataFrameName)
+To obtain the final summarized data run the following:  
+soruce('/.../run_analysis.R') (replace the ... with the directory path to the R script)  
+dataFrameName<-mergeFitData()  
+dataFrameName<-stdMeanDataExtract(dataFrameName)  
+dataFrameName<-addActivities(dataFrameName)  
+dataFrameName<-summarizeStdMeanByPersonActivity(dataFrameName)  

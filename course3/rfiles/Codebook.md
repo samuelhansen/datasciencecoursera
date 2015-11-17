@@ -92,10 +92,10 @@ The data should be stored in a folder called data in the same directory as the s
 5. You can then run either stdMeanDataExtract(nameOfDataFrameWithMergedData) if you wish to extract only the std and mean measurements or addActivities(nameOfDataFrameWithMergedData) if you wish to add descriptive activity names to the data. These can be run in either order
 6. Finally if you wish to summarize the data by subject and activity run summarizeStdMeanByPersonActivity(nameOfDataFrameWithDataWithActivityNamesAdded). This can only be run after addActvities has transformed the data. This function will determine the average of each measure by subject ID and activity name.
 7. To get to the final data set run the following code:  
->dataFrameName<-mergeFitData()
->dataFrameName<-stdMeanDataExtract(dataFrameName)
->dataFrameName<-addActivities(dataFrameName)
->dataFrameName<-summarizeStdMeanByPersonActivity(dataFrameName)
+>dataFrameName<-mergeFitData()  
+>dataFrameName<-stdMeanDataExtract(dataFrameName)  
+>dataFrameName<-addActivities(dataFrameName)  
+>dataFrameName<-summarizeStdMeanByPersonActivity(dataFrameName)  
 
 ###Cleaning of the data
 For mergeFitData: The data is first extracted into data frames. The data frames then get their columns named using the features list. Then columns for subject, and activity. The test and train data is then combined and finally the measurement type column is added.
