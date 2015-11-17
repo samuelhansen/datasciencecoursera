@@ -1,4 +1,4 @@
-This script has four different function, you should run which ones you need to in order to get the type of data you are looking to work with
+The run_analysis.R script has four different function, you should run which ones you need to in order to get the type of data you are looking to work with
 
 You can get the data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
